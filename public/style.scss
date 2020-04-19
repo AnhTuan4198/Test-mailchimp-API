@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+    .form-container{
+    //border:1px solid red;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    .input-filed{
+        margin-bottom:10px;
+        display: flex;
+        justify-content: space-between;
+        input{
+            width:75%;
+        }
+    }
+}
+}
